@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oxygen&display=swap');
+.body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Styling the header */
+
+.header {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    flex: 1;
+    height: 100px;
+    background-color: #316dc3;
+}
+
+
+/* Social Media Icons Styling */
+
+.social {
+    margin-left: 300px;
+    margin-top: 20px;
+    height: 25px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram,
+.fa-youtube {
+    color: rgb(255, 255, 255, 0.9);
+    margin-left: 30px;
+    margin-top: -50px;
+    position: relative;
+}
+
+
+/* Buttons in header */
+
+.buttons-head {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -35px;
+}
+
+.uk,
+.donate,
+.fee {
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+}
+
+
+/***************************** Navigation Bar Styling ************************/
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 20px;
+    margin-left: 800px;
+    z-index: 1;
+}
+
+.navbar a {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding: 12px 12px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    border-radius: 20px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(3, 99, 209);
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #316dc3;
+    border-radius: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* **********************Navigation Bar Styling End ************************************ */
+
+
+/* Saylani Logo Header */
+
+.saylani-logo {
+    position: absolute;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: -450px;
+    height: 50px;
+}
+
+
+/* Main Banner */
+
+.main-banner {
+    flex: 5;
+    background-color: navajowhite;
+}
+
+.banner-1 {
+    width: 100%;
+    height: 580px;
+}
+
+
+/* Notification Trigger and Introduction */
+
+.main {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Notification Trigger in Front */
+
+.trigger {
+    background-color: #316dc3;
+    width: 1250px;
+    margin-top: 5px !important;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: lightgreen;
+}
+
+
+/* Introduction */
+
+.intro>h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3>.span2 {
+    color: rgb(3, 121, 3) !important;
+}
+
+.content {
+    width: 700px;
+    height: max-content;
+    margin: auto;
+    margin-left: 450px;
+}
+
+.content>p {
+    text-align: left;
+    width: 1000px;
+    font-size: large;
+    font-weight: 50;
+    opacity: 0.7;
+}
+
+
+/************************** Styling accounts chart **********************/
+
+.accounts {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+}
+
+.bg {
+    background-color: #2755e9;
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Accounts Cards */
+
+.card {
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    padding: 50px !important;
+    margin-top: 70px;
+    background-color: #2755e9 !important;
+    display: flex;
+    border: none !important;
+    outline: none;
+}
+
+.card-body {
+    display: flex;
+    text-align: center;
+}
+
+
+/* Images in acocunts card */
+
+.image {
+    height: 80px;
+    margin: -30px auto 10px auto;
+}
+
+
+/* Figures */
+
+img~p {
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    margin-left: -25px;
+    margin-top: 60px;
+    font-size: 70px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.family-fig {
+    margin-left: 20px;
+}
+
+
+/* Description of accounts */
+
+p~small {
+    color: white;
+    position: absolute;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-top: 170px;
+    margin-left: -25px
+}
+
+small>span {
+    font-weight: 900;
+    font-size: 18px;
+    color: rgb(0, 255, 0);
+}
+
+
+/******** Styling what we are doing column *************/
+
+.services {
+    flex: 3;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+}
+
+.doing {
+    flex: 1;
+    background-color: #f7f8fa;
+}
+
+.projects {
+    flex: 1;
+    background-color: #6e85ce;
+}
+
+.gallery {
+    flex: 1;
+    background-color: chocolate;
+}
+
+.footer {
+    flex: 2;
+    background-color: darkcyan;
+}
