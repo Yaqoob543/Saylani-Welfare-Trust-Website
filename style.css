@@ -146,6 +146,7 @@
 .main-banner {
     flex: 5;
     background-color: navajowhite;
+    z-index: -1;
 }
 
 .banner-1 {
@@ -308,7 +309,6 @@ small>span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
 }
 
 .doing>h3 {
@@ -316,20 +316,174 @@ small>span {
     margin: auto;
     margin-top: 40px !important;
     font-size: 40px;
+    position: absolute;
+    margin-left: 680px;
 }
 
 
 /***** Cards of What we are doing *****/
 
-.sadqah {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(54, 214, 163);
+.sadqah,
+.welfare,
+.medical,
+.dastar,
+.roplant,
+.education {
+    width: 400px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-top: 200px;
+    margin-left: 150px;
+    border: none;
+    box-shadow: -7px 10px 10px lightgray;
 }
+
+.dastar2,
+.water2,
+.edu2 {
+    margin-top: 50px !important;
+}
+
+
+/********* PNG Icons & Text inside what we are doing card ******************/
+
+.do {
+    position: absolute;
+    width: 120px;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+.do~p {
+    color: #1944cf;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.do~span {
+    color: #1944cf;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 110px;
+    font-family: 'Merriweather', serif;
+}
+
+
+/********************** Styling Upcoming project chart ****************/
 
 .projects {
     flex: 1;
     background-color: #6e85ce;
+    display: flex;
+}
+
+.missions {
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/** Heading **/
+
+.missions>h3 {
+    color: #1944cf;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: 120px;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    margin-left: 170px;
+    background-color: forestgreen;
+}
+
+
+/*** Missions Icon ***/
+
+.mission-pic-1 {
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 35px;
+}
+
+.mission-pic-1~p {
+    color: #1944cf;
+    position: absolute;
+    font-size: large;
+    margin-top: -25px;
+    font-weight: 600;
+    margin-left: 230px;
+}
+
+.it {
+    margin-left: 230px !important;
+}
+
+.mission-pic-2 {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 35px;
+}
+
+.mission-pic-2~p {
+    color: #1944cf;
+    position: absolute;
+    font-size: large;
+    margin-top: -25px;
+    font-weight: 600;
+    margin-left: 680px;
+}
+
+
+/**** Styling Upcoming Event section with slider ****/
+
+.events {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.events>h3 {
+    color: #1944cf;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.line2 {
+    width: 100px;
+    height: 3px;
+    margin-left: 10px;
+    background-color: forestgreen;
+}
+
+
+/** News and Events Column *****/
+
+.news {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.more-details {
+    color: #1944cf;
 }
 
 .gallery {
